@@ -1,6 +1,6 @@
 {
   "name": "@ashdev/discourse-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/AshDevFr/discourse-mcp-server",
   "bugs": "https://github.com/AshDevFr/discourse-mcp-server/issues",
   "main": "index.js",
