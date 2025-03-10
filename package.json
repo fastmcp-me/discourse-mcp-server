@@ -1,0 +1,33 @@
+{
+  "name": "@ashdev/discourse-mcp-server",
+  "version": "1.0.0",
+  "homepage": "https://github.com/AshDevFr/discourse-mcp-server",
+  "bugs": "https://github.com/AshDevFr/discourse-mcp-server/issues",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "discourse": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check --write ./src"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "discourse2": "^1.1.26",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}

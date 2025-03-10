@@ -1,0 +1,5 @@
+/build/
+/node_modules/
+
+/discourse-mcp.sh
+/openapi.json
