@@ -29,9 +29,9 @@ Add this to your `claude_desktop_config.json`:
         "run",
         "-i",
         "--rm",
-        "-e DISCOURSE_API_URL=https://try.discourse.org",
-        "-e DISCOURSE_API_KEY=1234",
-        "-e DISCOURSE_API_USERNAME=ash",
+        "-e", "DISCOURSE_API_URL=https://try.discourse.org",
+        "-e", "DISCOURSE_API_KEY=1234",
+        "-e", "DISCOURSE_API_USERNAME=ash",
         "ashdev/discourse-mcp-server"
       ]
     }

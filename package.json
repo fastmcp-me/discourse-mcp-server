@@ -1,12 +1,12 @@
 {
   "name": "@ashdev/discourse-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/AshDevFr/discourse-mcp-server",
   "bugs": "https://github.com/AshDevFr/discourse-mcp-server/issues",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "discourse": "./build/index.js"
+    "discourse-mcp-server": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
